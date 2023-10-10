@@ -1,0 +1,68 @@
+-    External (_GPE.TBNF, MethodObj)    // 0 Arguments
+-    External (_PR_.PR00, DeviceObj)
+-    External (_SB_.GGIV, MethodObj)    // 1 Arguments
+-    External (_SB_.GGOV, MethodObj)    // 1 Arguments
+-    External (_SB_.PCI0.GFX0, DeviceObj)
+-    External (_SB_.PCI0.ISP0, DeviceObj)
+-    External (_SB_.PCI0.LPCB.EC__.HKEY.DYTC, MethodObj)    // 1 Arguments
+-    External (_SB_.PCI0.PEG0, DeviceObj)
+-    External (_SB_.PCI0.PEG0.PEGP, DeviceObj)
+-    External (_SB_.PCI0.PEG1, DeviceObj)
+-    External (_SB_.PCI0.PEG2, DeviceObj)
+-    External (_SB_.PCI0.RP01.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP01.PXSX.WGST, MethodObj)    // 0 Arguments
+-    External (_SB_.PCI0.RP01.PXSX.WIST, MethodObj)    // 0 Arguments
+-    External (_SB_.PCI0.RP02.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP03.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP04.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP05.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP06.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP07.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP08.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP09.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP10.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP11.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP12.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP13.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP14.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP15.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP16.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP17.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP18.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP19.PXSX, DeviceObj)
+-    External (_SB_.PCI0.RP20.PXSX, DeviceObj)
+-    External (_SB_.SGOV, MethodObj)    // 2 Arguments
+-    External (_SB_.TBFP, MethodObj)    // 1 Arguments
+-    External (ADBG, MethodObj)    // 1 Arguments
+-    External (BNUM, UnknownObj)
+-    External (DX2H, MethodObj)    // 2 Arguments
+-    External (MBGS, MethodObj)    // 1 Arguments
+-    External (MMRP, MethodObj)    // 1 Arguments
+-    External (MMTB, MethodObj)    // 1 Arguments
+-    External (ODV0, IntObj)
+-    External (ODV1, IntObj)
+-    External (ODV2, IntObj)
+-    External (ODV3, IntObj)
+-    External (ODV4, IntObj)
+-    External (ODV5, IntObj)
+-    External (ODV6, IntObj)
+-    External (ODV7, IntObj)
+-    External (ODV8, IntObj)
+-    External (ODV9, IntObj)
+-    External (ODVA, IntObj)
+-    External (ODVB, IntObj)
+-    External (ODVC, IntObj)
+-    External (ODVD, IntObj)
+-    External (ODVE, IntObj)
+-    External (ODVF, IntObj)
+-    External (ODVG, IntObj)
+-    External (ODVH, IntObj)
+-    External (ODVI, IntObj)
+-    External (ODVJ, IntObj)
+-    External (STDV, IntObj)
+-    External (TBTD, MethodObj)    // 1 Arguments
+-    External (TBTF, MethodObj)    // 1 Arguments
+-    One
+-    One
+-                        \_SB.SGOV (DerefOf (Arg0 [0x02]), (DerefOf (Arg0 [0x03]) ^ 
+-                            0x01))

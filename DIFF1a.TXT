@@ -1,0 +1,8 @@
++                        \_SB.SGOV (DerefOf (Arg0 [0x02]), (DerefOf (Arg0 [0x03]) ^ 0x01))
++        0x00
++    })
++    Name (\_S3, Package (0x04)  // _S3_: S3 System State
++    {
++        0x05,
++        0x05,
++        0x00,
